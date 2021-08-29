@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col {
+  margin: 15px;
+  max-width: 250px;
+}
+
+.navbar {
+  background-color: #F4F3EE;
+}
+
+.navbar-brand {
+  font-size: 36px;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+}
+
+/* -----> OBS! Found this in the inspect. didnt find out how to change the colour on the current without this!*/
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #C32C72;
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem 0rem;
+  font-size: 34px;
+}
+
+.card {
+  background-color: #F4F3EE;
+  -webkit-box-shadow: 0px 6px 12px #8D8D8D;
+          box-shadow: 0px 6px 12px #8D8D8D;
+  border-radius: 15px;
+  border: none;
+}
+
+.card--border {
+  border: 3px solid #C32C72;
+  background-color: #FFFFFF;
+}
+
+.card--colored {
+  background-color: #C32C72;
+  border: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F4F3EE;
+  color: #8D8D8D;
+  padding: 1rem 3rem;
+  font-size: 12px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/*# sourceMappingURL=styles.css.map */

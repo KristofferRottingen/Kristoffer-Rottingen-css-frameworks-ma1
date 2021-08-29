@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: $background;
+    font-family: $font-primary;
+}
+
+.wrapper{
+    flex: 1 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    margin: 15px;
+    max-width: 250px;
+}

@@ -1,0 +1,21 @@
+.navbar{
+    background-color: $block-color;
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-family: $nav-font;
+    font-size: 18px;
+}
+
+
+/* -----> OBS! Found this in the inspect. didnt find out how to change the colour on the current without this!*/
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: $primary-color;
+}
+
+
